@@ -1,0 +1,213 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto|Suez+One');
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+body{
+	background-color: #15181B;
+ 	font-family: Trebuchet MS, Helvetica;
+	
+
+}
+body,html{
+	width: 100%;
+	height: 100%;
+}
+.menu-item{
+	text-decoration: none;
+
+}
+header {
+  width: 100%;
+  padding: 10px 0.5% 0px 0.5%;
+  height: auto;
+  background: transparent;
+  float: left;
+  position: fixed;
+}
+.logo{
+	color: #fff;
+  	cursor: pointer;
+}
+.logo span{
+	margin-left: 40px;
+}
+@media (min-width: 701px) {
+.logo {
+    float: left;
+    width: 30%;
+    }
+.menu{
+	float: right;
+    width: 67%;
+	}
+}
+@media (max-width: 700px) {
+  .logo {
+    margin-top: 15px;
+    width: 100%;
+    
+  }
+
+  .menu {
+    float: left;
+    width: 100%;
+  }
+}
+.menu-blok{
+	text-align: center;
+	font-size: 1em;
+	line-height: 40px;
+	margin-bottom: 10px;
+}
+.menu > a {color: #fff}
+
+.menu > a:hover {
+	color: #b0b0b0;
+	text-decoration: underline;
+}
+.menu > a:not(:last-child) {
+  margin-right: 7%;
+}
+.fixed {
+  z-index: 5000;
+  background-color: #fff;
+  border-bottom: 1px solid silver;
+}
+.fixed .menu a {color: #343434}
+.fixed .menu a:hover {color: #7c7c7c}
+#top{
+	width: 100%;
+	background-image: url(https://w-dog.ru/wallpapers/1/13/343982817998463.jpg);
+	background-blend-mode: multiply;
+	background-color: #2e3a44;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+@media (min-width: 1001px) {
+  #top {
+    font-size: 3em;
+    height: 1000px;
+  }
+}
+@media (max-width: 1000px) and (min-width: 651px) {
+  #top {
+    font-size: 2em;
+    height: 600px;
+  }
+}
+@media (max-width: 650px) {
+  #top {
+    font-size: 1.3em;
+    padding-top: 50%;
+    height: 500px;
+  }
+}
+@media (max-width: 450px) {
+  #top {
+    font-size: 0.9em;
+  }
+}
+
+#top h1 {
+  padding-top: 20%;
+}
+
+#top h3 {
+  color: #ccc;
+}
+.model_bg h2{
+	font-size: 2.2em;
+	padding:5% 2%;
+}
+.Huracan_history{
+	float: left;
+	width: 33%;
+	margin-left: 7%;
+	margin-right:7%;
+	padding-bottom: 20px;
+	text-align: justify;
+	height: 30%;
+}
+.Huracan_texnology{
+	float: left;
+	width: 33%;
+	margin-right: 7%;
+	margin-left: 7%;
+	padding-bottom: 20px;
+	text-align: justify;
+	height: 30%;
+}
+.Huracan_texnology h3{
+	padding: 20px;
+	font-size: 1.5em;
+	padding-top: none;
+	text-align: center;
+}
+.Huracan_history h3{
+	padding: 20px;
+	font-size: 1.5em;
+	padding-top: none;
+	text-align: center;
+}
+.adapt_img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	padding: 10px;
+	width: 100%;
+}
+.Centenario{
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 10px;
+	text-align: justify;
+	width: 79%;
+	height: auto;
+	float: left;
+	height: 100%;
+}
+.adapt_imges{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	padding: 10px;
+	width: 100%;
+	
+	
+
+}
+.wrapper {
+   position: relative;
+   min-height: 100%;
+}
+#car_model {
+  background-color: #4D4D4D;
+  color: #fafafa;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 100%;
+  width: auto;
+  float: left;
+}
+#footer{
+  height: 100%;
+  background-color: #000;
+  color: #fafafa;
+  padding: 10px;
+  text-align: center;
+  width: auto; 
+  float: left;
+  width: 98%;
+}
+h2{
+	color: #D7A017;
+	text-align: center;
+	
+}
+h3{
+	color: #F7DA8F;
+}
+
